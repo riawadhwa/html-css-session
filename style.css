@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+.logo{
+    width: 48px;
+}
+.menu{
+    display: flex;
+}
+.menu > li{
+    list-style: none;
+    padding: 10px;
+}
+.menu > li:hover{
+    font-weight: 600;
+}
